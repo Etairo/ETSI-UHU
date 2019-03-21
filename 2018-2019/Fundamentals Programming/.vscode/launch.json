@@ -11,7 +11,7 @@
             "program": "enter program name, for example ${workspaceFolder}/a.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            "cwd": "$C:\\Users\\Etairo\\Desktop\\ETSI-UHU\\2018-2019",
             "environment": [],
             "externalConsole": true,
             "MIMode": "gdb",
