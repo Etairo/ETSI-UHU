@@ -8,7 +8,7 @@ int main(){
     float kbytes; //Declaracion de la variable "kbytes" de tipo real.
 
     cout << "\n\n\tIntroduzca el numero de Bytes a convertir: ";  cin >> bytes; //Nos pide el valor de bytes a convertir.
-    kbytes = float (bytes/1024); //La operacion que convierte los Bytes en Kbytes.
+    kbytes = (float) bytes/1024; //La operacion que convierte los Bytes en Kbytes.
     cout << "\n\t" << bytes << " Bytes = " << kbytes << " Kbytes.\n" << endl; //Imprime el valor de Bytes convertido en Kbytes.
 
     system ("pause");
