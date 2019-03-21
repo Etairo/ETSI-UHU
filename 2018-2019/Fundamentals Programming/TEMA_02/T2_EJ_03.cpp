@@ -6,7 +6,7 @@ int main(){
 
     int primero, segundo, tercero; //Declarando 3 variables de tipo entero.
 
-    cout << "\n\n\t" << primero << "\n\t" << segundo << "\n\t" << tercero << "\n\n" << endl; //Imprime los valores de "primero", "segundo" y "tercero".
+    cout << "\n\n\t" << primero << "\n\t" << segundo << "\n\t" << tercero << "\n" << endl; //Imprime los valores de "primero", "segundo" y "tercero".
 
     system ("pause");
     return 0;

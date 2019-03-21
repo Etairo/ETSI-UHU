@@ -7,7 +7,7 @@ int main(){
     int numero, total; //Hemos creado dos variables de tipo entero. Una para introducir el numero, y otra para la suma total de dicho numero + 5.
 
     cout << "\n\n\tIntroduzca un numero: "; cin >> numero; //Introducimos un numero cualquiera de tipo entero.
-    cout << "\n\tEl numero introducido es igual a: " << numero + 5 << "\n\n" << endl; //Imprime el valor total.
+    cout << "\n\tEl numero introducido es igual a: " << numero + 5 << "\n" << endl; //Imprime el valor total.
     
     system("pause");
     return 0;

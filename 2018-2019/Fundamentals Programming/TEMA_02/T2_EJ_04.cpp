@@ -15,7 +15,7 @@ int main(){
     x = y; //Intercambia el valor de "x" por su nuevo valor, que es el valor de "y".
     y = aux; //Intercambia el valor de "y" por su nuevo valor, que es el valor de "aux", que a su vez, era el valor inicial que teniamos en "x".
 
-    cout << "\n\tNuevo valor de x: " << x << "\n\tNuevo valor de y: " << y << "\n\n" << endl; //Imprime los nuevos valores de "x" e "y".
+    cout << "\n\tNuevo valor de x: " << x << "\n\tNuevo valor de y: " << y << "\n" << endl; //Imprime los nuevos valores de "x" e "y".
 
     system ("pause");
     return 0;

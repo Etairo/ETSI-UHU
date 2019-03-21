@@ -5,7 +5,7 @@ using namespace std; //Esta libreria nos permite escribir codigo sin la necesida
 int main(){
 
     //En la siguiente línea de código hemos escrito un texto que nos pide en el ejercico 1.
-    cout << "\n\n\tEste es mi primer programa en la Universidad de Huelva\n\n" << endl;
+    cout << "\n\n\tEste es mi primer programa en la Universidad de Huelva\n" << endl;
 
     system("pause");
     return 0;
