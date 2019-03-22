@@ -22,6 +22,6 @@ int main(){
     return 0;
 }
 
-/*No hacen falta las lineas de codigo 2 y 10 al principio si trabajais con CodeBlocks,
+/*No hacen falta las lineas de codigo 2 y 21 al principio si trabajais con CodeBlocks,
 ya ireis viendo lo que es y lo que hace. Como utilizo VSCode  me crea un ejecutable (.exe)
 automaticamente y para que no se cierre estoy obligado a ponerlo.*/

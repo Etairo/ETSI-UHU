@@ -15,6 +15,6 @@ int main(){
 /*En este caso nos ha devuelto 3 valores de tipo entero. Aunque no habiamos asignado ningun valor
 a las tres variables, estas por si ya tienen un valor, por eso salen numeros y no errores.*/
 
-/*No hacen falta las lineas de codigo 2 y 10 al principio si trabajais con CodeBlocks,
+/*No hacen falta las lineas de codigo 2 y 11 al principio si trabajais con CodeBlocks,
 ya ireis viendo lo que es y lo que hace. Como utilizo VSCode  me crea un ejecutable (.exe)
 automaticamente y para que no se cierre estoy obligado a ponerlo.*/

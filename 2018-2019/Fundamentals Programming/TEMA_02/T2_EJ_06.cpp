@@ -4,24 +4,19 @@ using namespace std;
 
 int main (){
 
-    float nt, np, nf; //nt = nota teórica; np = nota práctica; nf = nota final.
+    //Declaramos 2 variables, theory_score = nota teórica; practical_score = nota práctica.
+    float theory_score, practical_score;
 
-    cout << "\n\n\tIntroduzca la nota teorica: ";   cin >> nt;
-    cout << "\tIntroduzca la nota practica: ";      cin >> np;
+    cout << "\n\n\tIntroduzca la nota teorica: ";   cin >> theory_score;
+    cout << "\tIntroduzca la nota practica: ";      cin >> practical_score;
 
-    //Podemos hacer el programa de dos maneras diferentes, que se verá a continuación.
+    /*Hay varias formas de hacer este ejercicio. Yo me centro en hacerlo de la siguiente manera:
+    Poniendo una condición en caso de que theory_score y practical_score sean mayor o igual que 0 y menor o igual que 10.*/
 
-    /*if ((nt<0 || nt>10) || (np<0 || np>10)){ //Condición en la que, nt o np tienen que ser < que cero o > que 10 para que se cumpla la condición.
-        cout << "\n\tSolo estan permitidos valores entre el rango [1-10]\n\n" << endl;
+    if ((theory_score>=0 && theory_score<=10) && (practical_score>=0 && practical_score<=10)){
+         cout << "\n\tLa nota final obtenida es: " << (theory_score*0.7)+(practical_score*0.3) << "\n" << endl;
     }
-    else { //Caso en el que no se cumpla la condición del if.
-        cout << "\n\tLa nota final obtenida es: " << (nt*0.7)+(np*0.3) << "\n\n" << endl;
-    }*/
-
-    if ((nt>=0 && nt<=10) && (np>=0 && np<=10)){ //Condición en la que nt y np tienen que ser >= que cero y <= que diez, y que esas condiciones para nt y np se cumplan a la vez.
-         cout << "\n\tLa nota final obtenida es: " << (nt*0.7)+(np*0.3) << "\n" << endl;
-    }
-    else { //Caso en el que no se cumpla la condición del if.
+    else { //Si no se cumple la condición del if.
         cout << "\n\tSolo estan permitidos valores entre el rango [1-10]\n" << endl;        
     }
 
