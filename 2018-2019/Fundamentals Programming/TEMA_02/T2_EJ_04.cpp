@@ -4,18 +4,19 @@ using namespace std; //Esta libreria nos permite escribir codigo sin la necesida
 
 int main(){
 
-    int x, y, aux; //Declaramos tres variables. "x" para el primer numero, "y" para el segundo numero, y "aux" para hacer el intercambio.
+    //Declaramos tres variables. "valorof_x" para el primer numero, "valorof_y" para el segundo numero, y "valorof_aux" para hacer el intercambio.
+    int valorof_x, valorof_y, valorof_aux;
 
-    cout << "\n\n\tIntroduzca el valor de x: "; cin >> x; //Introducimos el primer numero.
-    cout << "\tIntroduzca el valor de y: ";   cin >> y; //Introducimos el segundo numero.
-    cout << "\n\tValor de x: " << x << endl //Imprime el valor de "x" inicial, que es aquel valor que hemos introducido en "x".
-         << "\tValor de y: " << y << endl; //Imprime el valor de "y" inicial, que es aquel valor que hemos introducido en "y".
+    cout << "\n\n\tIntroduzca el valor de x: "; cin >> valorof_x; //Introducimos el primer numero (x).
+    cout << "\tIntroduzca el valor de y: ";   cin >> valorof_y; //Introducimos el segundo numero (y).
+    cout << "\n\tValor de x: " << valorof_x << endl //Imprime el valor inicial de "x", que es aquel valor que hemos introducido en "valorof_x".
+         << "\tValor de y: " << valorof_y << endl; //Imprime el valor inicial de "y", que es aquel valor que hemos introducido en "valorof_y".
 
-    aux = x; //La variable "aux" la utilizamos para guardar la variable "x".
-    x = y; //Intercambia el valor de "x" por su nuevo valor, que es el valor de "y".
-    y = aux; //Intercambia el valor de "y" por su nuevo valor, que es el valor de "aux", que a su vez, era el valor inicial que teniamos en "x".
+    valorof_aux = valorof_x; //La variable "valorof_aux" la utilizamos para guardar la variable "valorof_x".
+    valorof_x = valorof_y; //Intercambia el valor de "valorof_x" por su nuevo valor, que es el valor de "valorof_y".
+    valorof_y = valorof_aux; //Intercambia el valor de "valorof_y" por su nuevo valor, que es el valor de "valorof_aux", que a su vez, era el valor inicial que teniamos en "valorof_x".
 
-    cout << "\n\tNuevo valor de x: " << x << "\n\tNuevo valor de y: " << y << "\n" << endl; //Imprime los nuevos valores de "x" e "y".
+    cout << "\n\tNuevo valor de x: " << valorof_x << "\n\tNuevo valor de y: " << valorof_y << "\n" << endl; //Imprime los nuevos valores de "x" e "y".
 
     system ("pause");
     return 0;
